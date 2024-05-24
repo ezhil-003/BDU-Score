@@ -1,0 +1,37 @@
+.mainpagecontent{  
+    top:80px !important;
+    left:90px !important;
+    width:85%;
+    height: 85vh;
+}
+
+.res_btn{
+    background-color: #512da8;
+    color: #ffff;
+    border: 1px solid  #512da8;
+}
+
+.res_btn:hover{
+    color: #512da8;
+    background-color: #ffff;
+    border: 1px solid  #512da8;
+    transition: 200ms ease-in;
+}
+
+.res_input_tag:focus{
+    border-color: #512da8 !important;
+    box-shadow: 0 0 0 .25rem rgba(201, 177, 242,.50) !important;
+}
+
+.res_input_tag:hover{
+    border-color: #512da8 !important;
+}
+
+@media (max-width:576px){
+    .mainpagecontent{
+        top:180px !important;
+        left:30px !important;
+        width:85%;
+        height: 85vh;
+    }
+}

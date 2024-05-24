@@ -1,0 +1,35 @@
+.signtry{  
+    background-color: #512da8 !important;
+    color: #ffff !important;
+}
+
+.signtry:hover{
+    color: #512da8 !important;
+    background-color: #ffff !important;
+    border: 1px solid  #512da8 !important;  
+}
+
+.emailinp:focus{
+    border-color: #512da8 !important;
+    box-shadow: 0 0 0 .25rem rgba(201, 177, 242,.50) !important;
+}
+.emailinp:hover{
+    color: #512da8;
+    background-color: #ffff;
+    border: 1px solid  #512da8;
+}
+.passinp:hover{
+    color: #512da8;
+    background-color: #ffff;
+    border: 1px solid  #512da8;  
+}
+
+.passinp:focus{
+    border-color: #512da8 !important;
+    box-shadow: 0 0 0 .25rem rgba(201, 177, 242,.50) !important;
+}
+
+.navbar{
+    width:100%;
+}
+

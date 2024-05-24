@@ -1,0 +1,73 @@
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 75px;
+    /* Width of the sidebar */
+    height: 60px;
+    width: calc(100% - 75px);
+    background-color: #f8f9fa;
+    /* Light background color */
+    border-bottom: 1px solid #e0e0e0;
+    /* Subtle border to differentiate from main content */
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+
+
+
+.user-name {
+    font-size: 15px;
+    color: #343a40;
+    /* Dark text color */
+}
+
+.notifi {
+    font-size: 24px;
+    color: #343a40;
+    /* Dark icon color */
+}
+span{
+    font-size: 23px;
+}
+
+@media (max-width:576px){
+    .topbar{
+    position: fixed;
+    top: 100px;
+    /* Width of the sidebar */
+    left:0;
+    height: 60px;
+    width: 100%;
+    background-color: #f8f9fa;
+    }
+    .notifi{
+        font-size: 15px;
+    }
+    .user-name{
+        font-size: 15px;
+    }
+    .user-info{
+        width:150px;
+    }
+    svg{
+        width:28px !important;
+        height:28px !important;
+    }
+    .titlebar{
+        font-size: calc(0.5rem + .3vw);
+    }
+    span{
+        font-size: 18px;
+    }
+}
+

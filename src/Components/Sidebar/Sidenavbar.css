@@ -1,0 +1,120 @@
+.navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.sidebartry {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75px;
+    /* background: linear-gradient(to left, #6e4eb9, #512da8); */
+    background-color: #512da8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logotry {
+    padding: 5px;
+}
+
+.logotry img {
+    width: 50px;
+    height: auto;
+
+}
+
+/* .your-logo{
+    width: 50px;
+    height: auto;
+    transition: 200ms ease-in;
+} */
+
+/* .your-logo:hover{
+    box-shadow: 0 0 10px .15rem #ffffffc9;
+    filter: drop-shadow(#ffffffc9 1rem 1rem  5px);
+    transition: 200ms ease-in;
+} */
+
+.nav-link {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logout {
+    margin-bottom: 20px;
+}
+
+.navitems {
+    transition: ease-in;
+    color: #f1f1f1;
+}
+
+.navitems:hover {
+    background-color: #e2e2e2;
+    color: #512da8;
+    transition: 200ms ease-in;
+}
+
+.logitem {
+    background-color: #e2e2e2;
+    color: #512da8;
+
+}
+
+.logitem:hover {
+    background-color: #512da8;
+    color: #f1f1f1;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 0 10px .15rem #ffffffc9;
+    transition: 200ms ease-in;
+}
+
+@media (max-width:576px) {
+    .navbar-wrapper {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .sidebartry {
+        position: fixed;
+        top: 0;
+        background-color: #512da8;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 0px;
+        height: 100px;
+        width: 100%;
+    }
+
+    .navthings {
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        margin-top: 0 !important;
+        justify-content: space-evenly !important;
+        row-gap: 2px;
+        width: 60%;
+    }
+
+    .navanchor {
+        margin-bottom: 0 !important;
+    }
+
+    .navitems {
+        transition: ease-in;
+    }
+
+    .navitems:hover {
+        padding: .35rem .10rem .35rem .10rem !important;
+    }
+}

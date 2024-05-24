@@ -1,0 +1,17 @@
+.respagemain{
+    top:80px !important;
+    left:90px !important;
+    width:85%;
+    height: 85vh;
+}
+.inputboxes{
+    width: 40%;
+    height: 25px;
+}
+.inputcontainer{
+    width: 15%;
+}
+
+.icons{
+    cursor: pointer;
+}
